@@ -1,0 +1,66 @@
+package asciiTableQuestions;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		//System.out.println("enter the length of array:  ");
+		//int n=sc.nextInt();
+		
+		System.out.println("enter the string for palindrome checking:  ");
+		String str=sc.nextLine();
+		char []chararr=str.toCharArray();
+		int n=chararr.length;
+		char []revarr=new char[n];
+		// int l=str.length();
+		char[] newarr=chararr;
+		System.out.println("new array is:  ");
+		for(char i:newarr)
+		{
+			System.out.println(i);
+		}
+		
+		
+		
+		for(int i=0;i<n;i++,n--)// 
+		{
+			char temp=newarr[i];//revarr[i]=chararr[n-1-i];
+			newarr[i]=newarr[n];
+			newarr[n]= temp;
+		}
+		for(char i:newarr)
+		{
+			System.out.println(i);
+		}
+		
+//		System.out.println(revarr);
+//		
+//		for(int i=0;i<n;i++,n--)
+//		{
+//			
+//			if(revarr[i]!=chararr[n-1])
+//			{
+//				System.out.println("not armstrong");
+//			}
+//			else
+//			{
+//				System.out.println(" armstrong");
+//			}
+//		}
+		
+		
+//		if(Arrays.equals(chararr,newarr))
+//		{
+//			System.out.println("armstrong");
+//		}
+//		else
+//		{
+//			System.out.println("not armstrong");
+//		}
+	}
+
+}

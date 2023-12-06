@@ -1,0 +1,26 @@
+package strings;
+
+public class Substring {
+	
+//	public static String substring(String str,int s,int e) {
+//	String substr="";
+//	for(int i=s;i<e;i++)
+//	{
+//		substr+=str.charAt(i);
+//	}
+//	return substr;
+//	}
+//
+//	public static void main(String[] args) {
+//		String str="hello world";
+//		System.out.println(substring(str ,0,3));
+//	}
+
+	
+//	using .substring(a,b) function directly
+	
+	public static void main(String[] args) {
+		String str="hello world";
+		System.out.println(str.substring(0,6));
+	}
+}

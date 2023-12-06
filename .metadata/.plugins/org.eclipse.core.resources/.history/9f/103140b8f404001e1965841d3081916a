@@ -1,0 +1,10 @@
+package strings;
+
+public class SpaceHiphen {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package strings;
+import java.lang.Math.*;
+public class RangePerfectSquare {
+
+	public static void main(String[] args) {
+		int n=23;
+		int f=0;
+		for(int i=17;i<=n;i++)
+		{
+			int a=(int) Math.sqrt(i);
+			if(a*a==i)
+			{
+				System.out.println(i+" is perfect square");
+				f=1;
+				break;
+			}
+//			if( i==n && a*a!=i )
+//			{
+//				System.out.println("no perfect square");
+//			}
+		}
+		if(f==0)
+		{
+			System.out.println("no perfect square");
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package strings;
+import java.lang.Math.*;
+public class RangePerfectSquare {
+
+	public static void main(String[] args) {
+		for(int i=5;i<=8;i++)
+		{
+			int a=(int) Math.sqrt(i);
+			if(a*a==i)
+			{
+				System.out.println(i+" is perfect square");
+				break;
+			}
+//			if(i==17 && )
+		}
+
+	}
+
+}

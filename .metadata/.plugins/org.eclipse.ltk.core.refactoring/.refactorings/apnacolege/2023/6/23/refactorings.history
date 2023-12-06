@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;arrays.Reyclearray&apos; to &apos;Recyclearray&apos;&#x0A;- Original project: &apos;apnacolege&apos;&#x0A;- Original element: &apos;arrays.Reyclearray&apos;&#x0A;- Renamed element: &apos;arrays.Recyclearray&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Reyclearray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arrays{Reyclearray.java[Reyclearray" matchStrategy="1" name="Recyclearray" qualified="false" references="true" similarDeclarations="false" stamp="1686033266499" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+package practiceWordTabularquestionsOnNoSysArrayString;
+
+public class TesterValue {
+
+	public static void main(String[] args) {
+		int n=2+3/2;
+		System.out.println(n);
+	}
+
+}

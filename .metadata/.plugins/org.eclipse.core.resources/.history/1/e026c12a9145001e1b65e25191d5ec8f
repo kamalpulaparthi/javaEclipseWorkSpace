@@ -1,0 +1,61 @@
+package accenture_coding;
+
+import java.util.Scanner;
+
+public class PasswordValidator {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		String str=sc.nextLine();
+		
+		int l=str.length();
+		int count=0;
+		
+		int cap=0,sma=0,spe=0,num=0,con=0,mount=0;
+		
+		for(int i=0;i<l;i++)
+		{
+			char a=str.charAt(i);
+			if(l>=6 && l<22)
+			{
+				count++;
+			}	
+				if(Character.isUpperCase(a))
+				{
+					cap++;
+					count++;
+				}
+				if(Character.isLowerCase(a))
+				{
+					sma++;
+					count++;
+				}
+				if(a=='@' || a=='!' && a=='&' || a=='^' || a=='%' || a=='*' || a=='#')
+				{
+					spe++;
+					count++;
+				}
+				if(a>='0' && a<='9')
+				{
+					num++;
+					count++;
+				}
+				for(int k=1;k<l;k++)
+				{
+				if(str.charAt(k)!=str.charAt(k-1))
+				{
+					con++;
+					mount++;
+				}
+				}
+				if(mount>0)
+				{
+					count++;
+				}
+		}
+		System.out.println(count);
+
+	}
+
+}

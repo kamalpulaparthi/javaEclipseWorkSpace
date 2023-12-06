@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;arrays.Tesrarray&apos; to &apos;Testarray&apos;&#x0A;- Original project: &apos;apnacolege&apos;&#x0A;- Original element: &apos;arrays.Tesrarray&apos;&#x0A;- Renamed element: &apos;arrays.Testarray&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Tesrarray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arrays{Tesrarray.java[Tesrarray" matchStrategy="1" name="Testarray" qualified="false" references="true" similarDeclarations="false" stamp="1685682586535" textual="false" version="1.0"/>
+</session>
